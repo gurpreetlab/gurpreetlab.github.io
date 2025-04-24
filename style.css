@@ -273,3 +273,10 @@ textarea:focus {
         transform: translateY(-5px);
     }
 }
+
+/* media */
+@media (max-width: 576px) {
+    html {
+        font-size: 13px;
+    }
+}
