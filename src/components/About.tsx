@@ -1,6 +1,7 @@
 import { motion } from 'motion/react';
 import { Section, SectionTitle } from './Layout';
 import { SKILL_CATEGORIES } from '../constants';
+import ProfileImage from '../assets/profile.png';
 
 export const About = () => {
   const stats = [
@@ -40,7 +41,7 @@ export const About = () => {
         <div className="relative">
           <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl grayscale hover:grayscale-0 transition-all duration-700">
             <img 
-              src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=800" 
+              src={ProfileImage} 
               alt="Gurpreet Singh" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
