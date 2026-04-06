@@ -13,6 +13,10 @@ const ProjectCard = ({ project }: { project: Project }) => {
         <img 
           src={project.image} 
           alt={project.title} 
+          loading="lazy"
+          decoding="async"
+          width="400"
+          height="225"
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-700"
           referrerPolicy="no-referrer"
         />

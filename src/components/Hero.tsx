@@ -1,6 +1,5 @@
 import { motion } from 'motion/react';
 import { ArrowRight, ChevronRight, Download, FileText } from 'lucide-react';
-import resume from '../assets/Gurpreet-Singh-Resume.pdf';
 
 export const Hero = () => {
   return (
@@ -55,7 +54,7 @@ export const Hero = () => {
               <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
             </a>
             <a 
-              href={resume} 
+              href="/resume.pdf" 
               download="Gurpreet_Singh_Resume.pdf"
               target="_blank"
               rel="noreferrer"

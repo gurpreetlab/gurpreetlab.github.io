@@ -1,11 +1,3 @@
-import SeymorrImage from './assets/SEYMORR.avif';
-import RadioMateImage from './assets/RadioMate.avif';
-import AirBeatsImage from './assets/AirBeats.avif';
-import DriveZeroImage from './assets/DriveZero.avif';
-import FuseSystemsImage from './assets/FuseSystems.avif';
-import MusistImage from './assets/Musist.avif';
-import DigiBotImage from './assets/DigiBot.avif';
-
 export interface Project {
   title: string;
   role: string;
@@ -55,7 +47,7 @@ export const PROJECTS: Project[] = [
     description: "SEYMORR is a modern, promotional single-page website designed for a café/restaurant brand. The goal was to create a visually appealing and conversion-focused digital presence that reflects the ambiance, quality, and premium feel of the café while keeping the user experience simple and engaging.",
     impact: "Showcasing the brand, menu highlights, atmosphere, and key information in a clean and elegant way.",
     tech: ["Laravel", "PHP", "Tailwind CSS", "Alpine.js"],
-    image: SeymorrImage
+    image: "https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "RadioMate",
@@ -66,7 +58,7 @@ export const PROJECTS: Project[] = [
     webLink: "https://radiomate.com.au/",
     mobileLink: "https://play.google.com/store/apps/details?id=com.radiomate.australia",
     tech: ["Laravel", "PHP", "MySQL", "REST API"],
-    image: RadioMateImage
+    image: "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "AirBeats",
@@ -77,7 +69,7 @@ export const PROJECTS: Project[] = [
     webLink: "https://airbeats.com.au/",
     mobileLink: "https://play.google.com/store/apps/details?id=com.airbeats.android&pcampaignid=web_share",
     tech: ["Laravel", "PHP", "MySQL", "REST API"],
-    image: AirBeatsImage
+    image: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "DriveZero",
@@ -87,7 +79,7 @@ export const PROJECTS: Project[] = [
     impact: "Enabled companies to reduce their carbon footprint by providing actionable real-time insights.",
     mobileLink: "https://play.google.com/store/apps/details?id=com.drivezero.app&pcampaignid=web_share",
     tech: ["Laravel", "MySQL", "REST API", "Mobile Sync"],
-    image: DriveZeroImage
+    image: "https://images.unsplash.com/photo-1593941707882-a5bba14938c7?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "Fuse Systems",
@@ -97,7 +89,7 @@ export const PROJECTS: Project[] = [
     impact: "Improved page load speeds by 40% and handled 3x more concurrent users.",
     webLink: "https://fuse.systems/",
     tech: ["Laravel", "MySQL", "Bootstrap", "SCSS"],
-    image: FuseSystemsImage
+    image: "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "Musist",
@@ -107,7 +99,7 @@ export const PROJECTS: Project[] = [
     impact: "Built a robust API that supports high-frequency social interactions and media processing.",
     mobileLink: "https://play.google.com/store/apps/details?id=com.musist.app&pcampaignid=web_share",
     tech: ["Laravel", "PHP", "MySQL", "Firebase"],
-    image: MusistImage
+    image: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&q=80&w=800"
   },
   {
     title: "DigiBot",
@@ -117,7 +109,7 @@ export const PROJECTS: Project[] = [
     impact: "Smart Task & Appointment Prioritization, Seamless Contact Integration, and AI-Powered Productivity Tools.",
     mobileLink: "https://apps.apple.com/in/app/digibot/id6670211701",
     tech: ["Laravel", "PHP", "REST API", "Mobile"],
-    image: DigiBotImage
+    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800"
   }
 ];
 
