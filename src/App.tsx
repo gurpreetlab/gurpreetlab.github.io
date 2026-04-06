@@ -1,4 +1,5 @@
 import { Suspense, lazy } from 'react';
+// Version: 1.0.1 - Performance & UX Optimized
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About, Skills } from './components/About';
